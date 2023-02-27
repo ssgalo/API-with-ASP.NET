@@ -1,0 +1,3 @@
+Un modelo es un conjunto de clases que representan los datos que gestiona la aplicación.
+
+Me quedé en agregar el controlador

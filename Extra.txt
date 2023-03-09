@@ -6,3 +6,7 @@ It is necessary to use the reserved word "override" in the derived class to use 
 If you don't want to define the method in the base class, you can use the concept: "Abstract class". It means, in that method you use the reserved word abstract...
 
 Interface: It has only abstract members. When a derived class inherits from an interface, it must implement all the methods.
+
+Namespaces declare a scope that contains a set of related objects. You can use a namespace to organize code elements. You can define your own namespaces and use them in your program.
+The using keyword states that the program is using a given namespace.
+For example, we are using the System namespace in our programs, which is where the class Console is defined:

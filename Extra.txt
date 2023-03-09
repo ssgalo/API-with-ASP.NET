@@ -5,3 +5,4 @@ It is necessary to use the reserved word "override" in the derived class to use 
 
 If you don't want to define the method in the base class, you can use the concept: "Abstract class". It means, in that method you use the reserved word abstract...
 
+Interface: It has only abstract members. When a derived class inherits from an interface, it must implement all the methods.

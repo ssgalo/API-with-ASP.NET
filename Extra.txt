@@ -1,0 +1,7 @@
+Highlights of OOP:
+
+Virtual: When you have a base class with a definition of a method, but in your derived classes that method will have a different implementation. 
+It is necessary to use the reserved word "override" in the derived class to use that method.
+
+If you don't want to define the method in the base class, you can use the concept: "Abstract class". It means, in that method you use the reserved word abstract...
+

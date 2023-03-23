@@ -12,3 +12,8 @@ The using keyword states that the program is using a given namespace.
 For example, we are using the System namespace in our programs, which is where the class Console is defined:
 -----------------------------------------
 DON'T FORGET ABOUT GENERIC TYPES. (<T>)
+-----------------------------------------
+Inyección de dependencias:
+Conviene siempre que una clase no instancie objetos dentro de la misma. Eso lo hará sumamente dependiente de ese tipo de objeto. Si el constructor de ese objeto cambia, tendremos que cambiar toda la clase.
+Para ello, es correcto usar este patrón de diseño de inyección de dependencias. 
+Se puede aplicar, por ejemplo, utilizando interfaces abstractas para justamente abtstraer esos objetos y pasarle el objeto ya instanciado como parametro, en vez de instanciarlo en el constructor de la misma clase.
